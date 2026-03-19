@@ -1,0 +1,21 @@
+import random
+
+number_guessing_game = random.randint(1, 100)
+random_number = random.randint(1, 100)
+max_attempts = 7
+
+guessed = False
+
+while True:
+  if not guessed:
+      answer = input("Guess the number: ")
+      if int(answer) == random_number:
+          guessed = True
+          print("You got it!")
+          break
+      elif int(answer) > random_number:
+          print("Too high!")
+      else:
+          print("Too low!")
+  else:
+      break
