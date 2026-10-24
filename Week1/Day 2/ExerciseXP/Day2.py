@@ -18,7 +18,7 @@ print((99**3)*8)
 5 < 3 #False
 3 == 3 #True
 3 == "3" #False
-"3" > 3 #False
+"3" > 3  # TypeError: cannot compare str and int
 "Hello" == "hello" #False
 
 
