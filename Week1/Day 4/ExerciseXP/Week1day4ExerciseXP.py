@@ -35,7 +35,7 @@ basket.remove("Banana")
 #Remove "Blueberries" from the list.
 basket.remove("Blueberries")
 #Add "Kiwi" to the end of the list.
-basket.add("Kiwi")
+basket.append("Kiwi")
 #Add "Apples" to the beginning of the list.
 basket.insert(0, "Apples")
 #Count how many times "Apples" appear in the list.
@@ -70,9 +70,9 @@ for number in range(1, 21):
     print(number)
 
 
-print("\nEven numbers from 1 to 20:")
-for even_number in range(2, 21, 2):
-    print(even_number)
+for index, number in enumerate(range(1, 21)):
+    if index % 2 == 0:
+        print(number)
 
 
 
@@ -88,9 +88,9 @@ while True:
     name = input("Enter your name: ")
 
     # Check if it's not digits and at least 3 characters long
-    if not name.isdigit() and len(name) >= 3:
-        print("thank you")
-        break
+  if name.isalpha() and len(name) >= 3:
+    print("thank you")
+    break
     else:
         print("Invalid input. Please enter a valid name (at least 3 letters, not only numbers).")
 
@@ -186,9 +186,12 @@ while True:
         age = int(age_input)
 
         # Apply pricing rules
-        if age < 3:
-            ticket_price = 0
-            print("-> Free ticket (under 3)")
+        if age < 0:
+    print("Invalid age. Please enter a positive number.")
+    continue
+elif age < 3:
+    ticket_price = 0
+    print("-> Free ticket (under 3)")
         elif 3 <= age <= 12:
             ticket_price = 10
             print("-> $10 ticket (3-12)")
