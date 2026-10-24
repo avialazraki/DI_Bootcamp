@@ -186,9 +186,12 @@ while True:
         age = int(age_input)
 
         # Apply pricing rules
-        if age < 3:
-            ticket_price = 0
-            print("-> Free ticket (under 3)")
+        if age < 0:
+    print("Invalid age. Please enter a positive number.")
+    continue
+elif age < 3:
+    ticket_price = 0
+    print("-> Free ticket (under 3)")
         elif 3 <= age <= 12:
             ticket_price = 10
             print("-> $10 ticket (3-12)")
