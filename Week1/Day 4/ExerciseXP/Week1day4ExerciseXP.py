@@ -88,9 +88,9 @@ while True:
     name = input("Enter your name: ")
 
     # Check if it's not digits and at least 3 characters long
-    if not name.isdigit() and len(name) >= 3:
-        print("thank you")
-        break
+  if name.isalpha() and len(name) >= 3:
+    print("thank you")
+    break
     else:
         print("Invalid input. Please enter a valid name (at least 3 letters, not only numbers).")
 
