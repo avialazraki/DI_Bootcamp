@@ -70,9 +70,9 @@ for number in range(1, 21):
     print(number)
 
 
-print("\nEven numbers from 1 to 20:")
-for even_number in range(2, 21, 2):
-    print(even_number)
+for index, number in enumerate(range(1, 21)):
+    if index % 2 == 0:
+        print(number)
 
 
 
