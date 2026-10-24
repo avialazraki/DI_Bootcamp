@@ -35,7 +35,7 @@ basket.remove("Banana")
 #Remove "Blueberries" from the list.
 basket.remove("Blueberries")
 #Add "Kiwi" to the end of the list.
-basket.add("Kiwi")
+basket.append("Kiwi")
 #Add "Apples" to the beginning of the list.
 basket.insert(0, "Apples")
 #Count how many times "Apples" appear in the list.
