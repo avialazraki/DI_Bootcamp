@@ -1,0 +1,67 @@
+WEEK 4 DAY 5 - DAILY CHALLENGE
+DATA HANDLING AND ANALYSIS
+
+1. DATA CLEANING
+
+The dataset was loaded from a ZIP file.
+Duplicate records and rows with missing
+required values were removed.
+
+Final dataset size: 1171 rows.
+
+2. MIN-MAX NORMALIZATION
+
+The original salary column was normalized
+using MinMaxScaler.
+
+Normalized minimum:
+0.0000
+
+Normalized maximum:
+1.0000
+
+3. DIMENSIONALITY REDUCTION
+
+PCA reduced 5 encoded
+features to 2 principal components.
+
+Explained variance:
+PC1: 41.38%
+PC2: 24.69%
+Combined: 66.08%
+
+4. SALARY ANALYSIS
+
+Salary comparison column: salary
+
+                  count  average_salary  median_salary
+experience_label                                      
+Entry               126        36111.11        30000.0
+Mid                 305        51786.89        51000.0
+Senior              727        75088.03        68000.0
+Executive            13        76076.92        46000.0
+
+Highest average salary group:
+Executive
+
+Lowest average salary group:
+Entry
+
+5. CONCLUSION
+
+Min-Max normalization placed salary values
+on a consistent scale between 0 and 1.
+
+PCA compressed multiple dataset features
+into two components for visualization.
+
+Salary aggregation revealed differences
+in average and median compensation across
+experience levels.
+
+Note: PCA components are not necessarily
+directly interpretable, and salary
+differences do not establish causation.
+
+If salary_in_usd was unavailable,
+salary comparisons may mix currencies.
