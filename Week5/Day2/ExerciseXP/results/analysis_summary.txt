@@ -1,0 +1,49 @@
+WEEK 5 DAY 2 - EXERCISES XP
+STATISTICAL ANALYSIS SUMMARY
+
+Exercise 1: SciPy
+SciPy version: 1.18.1
+
+Exercise 2: Descriptive Statistics
+Mean: 16.62
+Median: 16.50
+Sample variance: 17.12
+Sample standard deviation: 4.14
+
+Exercise 3: Normal Distribution
+Mean: 50
+Standard deviation: 10
+
+Exercise 4: T-Test
+T-statistic: -8.3166
+P-value: 0.00000000
+Significant at 0.05: True
+
+Exercise 5: Linear Regression
+Slope: 1828.77
+Intercept: 64383.56
+Predicted 90 m² price: 228,972.60
+R-squared: 0.9884
+
+Exercise 6: ANOVA
+F-statistic: 28.5263
+P-value: 0.00002754
+Significant at 0.05: True
+
+Exercise 7: Binomial Distribution
+P(exactly 5 heads in 10 flips):
+0.246094
+
+Exercise 8: Correlation
+Pearson: 0.9997
+Spearman: 1.0000
+
+CONCLUSION
+
+SciPy provides tools for statistical
+description, probability distributions,
+hypothesis testing, regression, ANOVA,
+and correlation analysis.
+
+Statistical significance is not the same
+as practical importance or causation.
